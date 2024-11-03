@@ -1,0 +1,14 @@
+forecasting:
+  forecast_horizon: 38  # Number of years to forecast
+  window_size: 60       # Sliding window size
+  initial_window: 60    # Expanding window initial size
+  prophet:
+    yearly_seasonality: true
+    changepoint_prior_scale: 0.1
+    forecast_horizon: 38  # Forecasting years
+  gpr:
+    kernel: "RBF"
+    n_restarts_optimizer: 10
+logging:
+  level: "INFO"
+  log_file: "logs/forecast.log"

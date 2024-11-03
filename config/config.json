@@ -1,0 +1,72 @@
+{
+    "prophet": {
+        "changepoint_prior_scale": 0.05,
+        "yearly_seasonality": true,
+        "seasonality_mode": "multiplicative",
+        "changepoint_range": 0.9,
+        "n_changepoints": 25,
+        "interval_width": 0.95,
+        "seasonality_prior_scale": 10.0,
+        "holidays_prior_scale": 10.0,
+        "mcmc_samples": 0,
+        "uncertainty_samples": 1000
+    },
+    "gpr": {
+        "n_restarts_optimizer": 15,
+        "alpha": 0.1,
+        "normalize_y": true,
+        "kernel_params": {
+            "constant_bounds": [1e-3, 1e3],
+            "length_scale": 1.0,
+            "nu": 1.5
+        }
+    },
+    "validation": {
+        "min_window_size": 20,
+        "max_horizon": 5,
+        "train_test_split": 0.8,
+        "cross_validation_folds": 5
+    },
+    "forecast": {
+        "horizon": 36,
+        "confidence_interval": 0.95,
+        "include_components": true,
+        "return_diagnostics": true
+    },
+    "data": {
+        "min_years_required": 10,
+        "outlier_threshold": 1.5,
+        "interpolation_method": "linear",
+        "frequency": "Y"
+    },
+    "plotting": {
+        "figure_size": {
+            "width": 15,
+            "height": 8
+        },
+        "style": "seaborn",
+        "colors": {
+            "historical": "black",
+            "forecast": "blue",
+            "confidence_interval": "lightblue",
+            "prophet_component": "green",
+            "gpr_component": "red"
+        },
+        "dpi": 300,
+        "show_components": true,
+        "show_metrics": true
+    },
+    "output": {
+        "save_model": true,
+        "save_metrics": true,
+        "save_predictions": true,
+        "export_format": "csv",
+        "create_visualizations": true
+    },
+    "logging": {
+        "level": "INFO",
+        "file_rotation": "1 day",
+        "max_files": 30,
+        "console_output": true
+    }
+}
