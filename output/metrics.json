@@ -1,0 +1,9 @@
+{
+    "mape": 1.7897382523447465,
+    "rmse": 14.323275233515005,
+    "r2": NaN,
+    "window_type": "rolling",
+    "window_size": 20,
+    "forecast_horizon": 36,
+    "timestamp": "2024-11-03T17:51:05.623633"
+}

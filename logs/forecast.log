@@ -1,0 +1,126 @@
+2024-11-02 21:43:07,768 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-02 21:43:07,914 - DEBUG - Adding TBB (D:\LLM\CEPCI_Prediction\.venv\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2024-11-02 21:43:07,918 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-02 21:43:07,918 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-02 21:43:07,927 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmp33h6h_zo\f9y7wpq9.json
+2024-11-02 21:43:07,929 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmp33h6h_zo\5hbw8v5e.json
+2024-11-02 21:43:07,930 - DEBUG - idx 0
+2024-11-02 21:43:07,930 - DEBUG - running CmdStan, num_threads: None
+2024-11-02 21:43:07,930 - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=49378', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmp33h6h_zo\\f9y7wpq9.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmp33h6h_zo\\5hbw8v5e.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmp33h6h_zo\\prophet_model8g8qy_ay\\prophet_model-20241102214307.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-02 21:43:07,930 - INFO - Chain [1] start processing
+2024-11-02 21:43:08,196 - INFO - Chain [1] done processing
+2024-11-02 21:44:24,893 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-02 21:44:25,043 - DEBUG - Adding TBB (D:\LLM\CEPCI_Prediction\.venv\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2024-11-02 21:44:25,046 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-02 21:44:25,046 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-02 21:44:25,055 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmp4xl4m98a\3r1eir3o.json
+2024-11-02 21:44:25,057 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmp4xl4m98a\ft_g44cd.json
+2024-11-02 21:44:25,060 - DEBUG - idx 0
+2024-11-02 21:44:25,060 - DEBUG - running CmdStan, num_threads: None
+2024-11-02 21:44:25,060 - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=18395', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmp4xl4m98a\\3r1eir3o.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmp4xl4m98a\\ft_g44cd.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmp4xl4m98a\\prophet_modelua3jk5j9\\prophet_model-20241102214425.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-02 21:44:25,060 - INFO - Chain [1] start processing
+2024-11-02 21:44:25,279 - INFO - Chain [1] done processing
+2024-11-02 21:45:27,864 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-02 21:45:27,992 - DEBUG - Adding TBB (D:\LLM\CEPCI_Prediction\.venv\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2024-11-02 21:45:27,996 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-02 21:45:27,996 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-02 21:45:28,005 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmp640f9obt\4tahcp4y.json
+2024-11-02 21:45:28,007 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmp640f9obt\fvenr3le.json
+2024-11-02 21:45:28,008 - DEBUG - idx 0
+2024-11-02 21:45:28,008 - DEBUG - running CmdStan, num_threads: None
+2024-11-02 21:45:28,008 - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=20891', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmp640f9obt\\4tahcp4y.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmp640f9obt\\fvenr3le.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmp640f9obt\\prophet_modeljbd4qc5n\\prophet_model-20241102214528.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-02 21:45:28,008 - INFO - Chain [1] start processing
+2024-11-02 21:45:28,236 - INFO - Chain [1] done processing
+2024-11-02 21:45:28,276 - WARNING - NaN values found in residuals. Filling NaNs with zero.
+2024-11-02 21:45:28,323 - INFO - GPR model trained successfully.
+2024-11-02 21:45:28,325 - INFO - Sliding Window Validation - Prophet MSE: nan, Hybrid MSE: nan
+2024-11-02 21:45:28,325 - INFO - Expanding Window Validation - Prophet MSE: nan, Hybrid MSE: nan
+2024-11-02 21:48:56,748 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-02 21:48:56,900 - DEBUG - Adding TBB (D:\LLM\CEPCI_Prediction\.venv\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2024-11-02 21:48:56,903 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-02 21:48:56,903 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-02 21:48:56,912 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpizxwo4dp\9o6qog1b.json
+2024-11-02 21:48:56,913 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpizxwo4dp\yp41z2li.json
+2024-11-02 21:48:56,917 - DEBUG - idx 0
+2024-11-02 21:48:56,917 - DEBUG - running CmdStan, num_threads: None
+2024-11-02 21:48:56,917 - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=38465', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpizxwo4dp\\9o6qog1b.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpizxwo4dp\\yp41z2li.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpizxwo4dp\\prophet_model_vc89woe\\prophet_model-20241102214856.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-02 21:48:56,917 - INFO - Chain [1] start processing
+2024-11-02 21:48:57,138 - INFO - Chain [1] done processing
+2024-11-02 21:48:57,230 - INFO - GPR model trained successfully.
+2024-11-02 21:50:03,620 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-02 21:50:03,752 - DEBUG - Adding TBB (D:\LLM\CEPCI_Prediction\.venv\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2024-11-02 21:50:03,756 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-02 21:50:03,756 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-02 21:50:03,765 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpx7klmhjq\4ey22iew.json
+2024-11-02 21:50:03,766 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpx7klmhjq\p5iap75a.json
+2024-11-02 21:50:03,770 - DEBUG - idx 0
+2024-11-02 21:50:03,770 - DEBUG - running CmdStan, num_threads: None
+2024-11-02 21:50:03,770 - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=27175', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpx7klmhjq\\4ey22iew.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpx7klmhjq\\p5iap75a.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpx7klmhjq\\prophet_modeldcovknw9\\prophet_model-20241102215003.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-02 21:50:03,770 - INFO - Chain [1] start processing
+2024-11-02 21:50:03,995 - INFO - Chain [1] done processing
+2024-11-02 21:50:04,086 - INFO - GPR model trained successfully.
+2024-11-02 21:50:59,809 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-02 21:50:59,968 - DEBUG - Adding TBB (D:\LLM\CEPCI_Prediction\.venv\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2024-11-02 21:50:59,972 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-02 21:50:59,973 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-02 21:50:59,982 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpm1tsu2ka\jyqje7nv.json
+2024-11-02 21:50:59,983 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpm1tsu2ka\xnhwhs11.json
+2024-11-02 21:50:59,986 - DEBUG - idx 0
+2024-11-02 21:50:59,986 - DEBUG - running CmdStan, num_threads: None
+2024-11-02 21:50:59,986 - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=93793', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpm1tsu2ka\\jyqje7nv.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpm1tsu2ka\\xnhwhs11.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpm1tsu2ka\\prophet_modelfwzpmh82\\prophet_model-20241102215059.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-02 21:50:59,986 - INFO - Chain [1] start processing
+2024-11-02 21:51:00,215 - INFO - Chain [1] done processing
+2024-11-02 21:51:00,317 - INFO - GPR model trained successfully.
+2024-11-02 21:51:00,319 - INFO - Sliding Window Validation - Prophet MSE: nan, Hybrid MSE: nan
+2024-11-02 21:51:00,319 - INFO - Expanding Window Validation - Prophet MSE: nan, Hybrid MSE: nan
+2024-11-02 21:55:04,744 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-02 21:55:04,869 - DEBUG - Adding TBB (D:\LLM\CEPCI_Prediction\.venv\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2024-11-02 21:55:04,872 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-02 21:55:04,872 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-02 21:55:04,882 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpab75f14n\cs804nzu.json
+2024-11-02 21:55:04,883 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpab75f14n\fyc_t391.json
+2024-11-02 21:55:04,886 - DEBUG - idx 0
+2024-11-02 21:55:04,886 - DEBUG - running CmdStan, num_threads: None
+2024-11-02 21:55:04,887 - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=84778', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpab75f14n\\cs804nzu.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpab75f14n\\fyc_t391.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpab75f14n\\prophet_model_0zva_4_\\prophet_model-20241102215504.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-02 21:55:04,887 - INFO - Chain [1] start processing
+2024-11-02 21:55:05,108 - INFO - Chain [1] done processing
+2024-11-02 21:55:05,224 - INFO - GPR model trained successfully.
+2024-11-02 21:55:05,225 - INFO - Sliding Window Validation - Prophet MSE: nan, Hybrid MSE: nan
+2024-11-02 21:55:05,225 - INFO - Expanding Window Validation - Prophet MSE: nan, Hybrid MSE: nan
+2024-11-02 21:56:41,366 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-02 21:56:41,491 - DEBUG - Adding TBB (D:\LLM\CEPCI_Prediction\.venv\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2024-11-02 21:56:41,495 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-02 21:56:41,495 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-02 21:56:41,504 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpplp5ua1s\87n6sl4j.json
+2024-11-02 21:56:41,505 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpplp5ua1s\bt874aa4.json
+2024-11-02 21:56:41,509 - DEBUG - idx 0
+2024-11-02 21:56:41,509 - DEBUG - running CmdStan, num_threads: None
+2024-11-02 21:56:41,509 - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=60159', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpplp5ua1s\\87n6sl4j.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpplp5ua1s\\bt874aa4.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpplp5ua1s\\prophet_modelbs6yarot\\prophet_model-20241102215641.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-02 21:56:41,509 - INFO - Chain [1] start processing
+2024-11-02 21:56:41,728 - INFO - Chain [1] done processing
+2024-11-02 21:56:41,825 - INFO - GPR model trained successfully.
+2024-11-02 21:56:41,826 - INFO - Sliding Window Validation - Prophet MSE: nan, Hybrid MSE: nan
+2024-11-02 21:56:41,827 - INFO - Expanding Window Validation - Prophet MSE: nan, Hybrid MSE: nan
+2024-11-02 21:57:14,539 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-02 21:57:14,663 - DEBUG - Adding TBB (D:\LLM\CEPCI_Prediction\.venv\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2024-11-02 21:57:14,668 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-02 21:57:14,668 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-02 21:57:14,676 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpedflbxbk\gynjtjd8.json
+2024-11-02 21:57:14,677 - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpedflbxbk\vrbby2fr.json
+2024-11-02 21:57:14,681 - DEBUG - idx 0
+2024-11-02 21:57:14,681 - DEBUG - running CmdStan, num_threads: None
+2024-11-02 21:57:14,681 - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=19375', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpedflbxbk\\gynjtjd8.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpedflbxbk\\vrbby2fr.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpedflbxbk\\prophet_modelow722anp\\prophet_model-20241102215714.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-02 21:57:14,681 - INFO - Chain [1] start processing
+2024-11-02 21:57:14,901 - INFO - Chain [1] done processing
+2024-11-02 21:57:15,003 - INFO - GPR model trained successfully.
+2024-11-02 21:57:15,004 - INFO - Sliding Window Validation - Prophet MSE: nan, Hybrid MSE: nan
+2024-11-02 21:57:15,004 - INFO - Expanding Window Validation - Prophet MSE: nan, Hybrid MSE: nan

@@ -1,0 +1,502 @@
+2024-11-03 01:18:24,216 - __main__ - INFO - Loading configuration...
+2024-11-03 01:18:24,216 - __main__ - INFO - Loading historical data...
+2024-11-03 01:18:24,442 - __main__ - INFO - Initializing forecaster...
+2024-11-03 01:18:24,442 - __main__ - INFO - Training model...
+2024-11-03 01:18:24,483 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:24,639 - cmdstanpy - DEBUG - Adding TBB (D:\LLM\CEPCI_Prediction\.venv\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2024-11-03 01:18:24,643 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:24,643 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:24,655 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\syrr4283.json
+2024-11-03 01:18:24,659 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\5vh4a310.json
+2024-11-03 01:18:24,662 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:24,662 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:24,663 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=35593', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\syrr4283.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\5vh4a310.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelq1si68s5\\prophet_model-20241103011824.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:24,663 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:24,837 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:24,873 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:25,026 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:25,029 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:25,029 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:25,037 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\q_tq_4wn.json
+2024-11-03 01:18:25,040 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\205dpno4.json
+2024-11-03 01:18:25,041 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:25,041 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:25,041 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=49198', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\q_tq_4wn.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\205dpno4.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modeloysjsmdl\\prophet_model-20241103011825.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:25,041 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:25,198 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:25,233 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:25,359 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:25,362 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:25,362 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:25,370 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\_e2fjybm.json
+2024-11-03 01:18:25,373 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\jxc306fw.json
+2024-11-03 01:18:25,374 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:25,374 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:25,374 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=25019', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\_e2fjybm.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\jxc306fw.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modeljzwvlt4g\\prophet_model-20241103011825.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:25,374 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:25,582 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:25,616 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:25,741 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:25,745 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:25,745 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:25,752 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\9cvt_po2.json
+2024-11-03 01:18:25,755 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\i4cqw1w4.json
+2024-11-03 01:18:25,756 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:25,756 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:25,756 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=89949', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\9cvt_po2.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\i4cqw1w4.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_model3to59uzo\\prophet_model-20241103011825.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:25,756 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:26,038 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:26,071 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:26,198 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:26,201 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:26,201 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:26,208 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\jjws2xmo.json
+2024-11-03 01:18:26,212 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\orp2brsj.json
+2024-11-03 01:18:26,213 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:26,213 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:26,213 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=47189', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\jjws2xmo.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\orp2brsj.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modeldjnjhuwr\\prophet_model-20241103011826.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:26,213 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:26,399 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:26,432 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:26,557 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:26,561 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:26,561 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:26,568 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\9mwkhd4n.json
+2024-11-03 01:18:26,571 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\nmnubo_n.json
+2024-11-03 01:18:26,572 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:26,572 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:26,572 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=4197', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\9mwkhd4n.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\nmnubo_n.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_model3fdltdwt\\prophet_model-20241103011826.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:26,573 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:26,741 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:26,775 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:26,903 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:26,907 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:26,907 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:26,915 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\nlwjb8cu.json
+2024-11-03 01:18:26,918 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\_ygc_pbj.json
+2024-11-03 01:18:26,919 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:26,919 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:26,919 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=72657', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\nlwjb8cu.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\_ygc_pbj.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelrae6e0s7\\prophet_model-20241103011826.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:26,919 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:27,088 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:27,122 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:27,249 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:27,252 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:27,252 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:27,259 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\8y0tchhk.json
+2024-11-03 01:18:27,263 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\0zyb4w8y.json
+2024-11-03 01:18:27,264 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:27,264 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:27,264 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=35318', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\8y0tchhk.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\0zyb4w8y.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelyznm3bo_\\prophet_model-20241103011827.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:27,264 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:27,421 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:27,458 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:27,588 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:27,592 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:27,592 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:27,599 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\ek83en4z.json
+2024-11-03 01:18:27,603 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\xj_4vrx0.json
+2024-11-03 01:18:27,604 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:27,604 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:27,604 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=18657', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\ek83en4z.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\xj_4vrx0.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelipi6mujj\\prophet_model-20241103011827.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:27,604 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:27,863 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:27,899 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:28,031 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:28,034 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:28,034 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:28,041 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\c4x3ew26.json
+2024-11-03 01:18:28,045 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\f3l_wxps.json
+2024-11-03 01:18:28,046 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:28,046 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:28,046 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=38816', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\c4x3ew26.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\f3l_wxps.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelyp86111w\\prophet_model-20241103011828.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:28,046 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:28,277 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:28,313 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:28,445 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:28,449 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:28,449 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:28,457 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\7_vnjgvt.json
+2024-11-03 01:18:28,460 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\s553mnd5.json
+2024-11-03 01:18:28,461 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:28,461 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:28,461 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=87947', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\7_vnjgvt.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\s553mnd5.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelogbtv4e_\\prophet_model-20241103011828.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:28,461 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:28,742 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:28,777 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:28,909 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:28,913 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:28,913 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:28,921 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\qq7ps9r6.json
+2024-11-03 01:18:28,925 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\massylj2.json
+2024-11-03 01:18:28,926 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:28,927 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:28,927 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=24251', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\qq7ps9r6.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\massylj2.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modeluejqum4v\\prophet_model-20241103011828.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:28,927 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:29,196 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:29,230 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:29,355 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:29,358 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:29,358 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:29,365 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\4adqwazc.json
+2024-11-03 01:18:29,369 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\1f2rmcsu.json
+2024-11-03 01:18:29,369 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:29,370 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:29,370 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=63098', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\4adqwazc.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\1f2rmcsu.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_model76lw2cno\\prophet_model-20241103011829.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:29,370 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:29,546 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:29,585 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:29,712 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:29,715 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:29,715 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:29,722 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\esu61obr.json
+2024-11-03 01:18:29,726 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\va5hywlu.json
+2024-11-03 01:18:29,726 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:29,727 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:29,727 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=24264', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\esu61obr.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\va5hywlu.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelqo4w00zp\\prophet_model-20241103011829.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:29,727 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:29,937 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:29,971 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:30,112 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:30,118 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:30,118 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:30,125 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\emro304k.json
+2024-11-03 01:18:30,129 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\mmybk7j9.json
+2024-11-03 01:18:30,130 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:30,130 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:30,130 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=45768', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\emro304k.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\mmybk7j9.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelpso73_7q\\prophet_model-20241103011830.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:30,130 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:30,311 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:30,345 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:30,492 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:30,496 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:30,496 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:30,503 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\yfrgjslg.json
+2024-11-03 01:18:30,506 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\a5_1jp6l.json
+2024-11-03 01:18:30,510 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:30,510 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:30,510 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=21776', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\yfrgjslg.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\a5_1jp6l.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_model9czcbx1e\\prophet_model-20241103011830.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:30,510 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:30,744 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:30,778 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:30,903 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:30,907 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:30,907 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:30,914 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\89u95bnt.json
+2024-11-03 01:18:30,918 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\mytvz5qn.json
+2024-11-03 01:18:30,918 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:30,919 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:30,919 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=87719', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\89u95bnt.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\mytvz5qn.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelgmiru8fn\\prophet_model-20241103011830.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:30,919 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:31,287 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:31,322 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:31,461 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:31,464 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:31,464 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:31,472 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\14ri2by8.json
+2024-11-03 01:18:31,475 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\pkez2s2i.json
+2024-11-03 01:18:31,476 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:31,476 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:31,477 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=25755', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\14ri2by8.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\pkez2s2i.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modeld22v_m4o\\prophet_model-20241103011831.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:31,477 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:31,873 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:31,910 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:32,066 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:32,069 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:32,069 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:32,077 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\wjsi7iw_.json
+2024-11-03 01:18:32,080 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\j19ac07d.json
+2024-11-03 01:18:32,081 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:32,081 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:32,081 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=22039', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\wjsi7iw_.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\j19ac07d.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelrim0xy3w\\prophet_model-20241103011832.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:32,081 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:32,375 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:32,409 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:32,551 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:32,554 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:32,554 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:32,561 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\5v35t0gh.json
+2024-11-03 01:18:32,565 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\vn1ma3eb.json
+2024-11-03 01:18:32,566 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:32,566 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:32,566 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=34738', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\5v35t0gh.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\vn1ma3eb.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelp7k5ppsy\\prophet_model-20241103011832.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:32,566 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:32,904 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:32,941 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:33,075 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:33,078 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:33,078 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:33,085 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\s7b9wgr4.json
+2024-11-03 01:18:33,089 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\x7ms3vfo.json
+2024-11-03 01:18:33,090 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:33,090 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:33,090 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=46498', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\s7b9wgr4.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\x7ms3vfo.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_model49m56y75\\prophet_model-20241103011833.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:33,090 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:33,696 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:33,730 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:33,855 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:33,858 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:33,858 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:33,865 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\5swieqe5.json
+2024-11-03 01:18:33,869 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\lv3334_r.json
+2024-11-03 01:18:33,870 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:33,870 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:33,870 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=60359', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\5swieqe5.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\lv3334_r.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_model3txpiusk\\prophet_model-20241103011833.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:33,870 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:34,225 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:34,259 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:34,387 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:34,390 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:34,390 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:34,397 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\m3l4h6ub.json
+2024-11-03 01:18:34,401 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\lk3ld98q.json
+2024-11-03 01:18:34,401 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:34,401 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:34,402 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=27316', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\m3l4h6ub.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\lk3ld98q.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelmbpgqdio\\prophet_model-20241103011834.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:34,402 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:35,217 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:35,253 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:35,387 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:35,390 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:35,390 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:35,397 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\1q64m2c4.json
+2024-11-03 01:18:35,401 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\3_2gafrb.json
+2024-11-03 01:18:35,402 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:35,402 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:35,402 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=86543', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\1q64m2c4.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\3_2gafrb.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelolhjbwxx\\prophet_model-20241103011835.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:35,402 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:35,710 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:35,742 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:35,886 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:35,889 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:35,889 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:35,897 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\w20cii_y.json
+2024-11-03 01:18:35,900 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\rklrpuji.json
+2024-11-03 01:18:35,901 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:35,901 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:35,901 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=31587', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\w20cii_y.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\rklrpuji.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelsn8x77ox\\prophet_model-20241103011835.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:35,901 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:36,194 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:36,227 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:36,352 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:36,355 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:36,355 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:36,362 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\5oee7iby.json
+2024-11-03 01:18:36,366 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\jqlripun.json
+2024-11-03 01:18:36,366 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:36,367 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:36,367 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=7468', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\5oee7iby.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\jqlripun.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modeldkm6xscp\\prophet_model-20241103011836.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:36,367 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:36,772 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:36,807 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:36,930 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:36,933 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:36,934 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:36,941 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\uyuukiku.json
+2024-11-03 01:18:36,945 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\4en39g27.json
+2024-11-03 01:18:36,946 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:36,946 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:36,946 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=1289', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\uyuukiku.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\4en39g27.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelwpg20jxn\\prophet_model-20241103011836.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:36,946 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:37,465 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:37,498 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:37,623 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:37,626 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:37,626 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:37,633 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\0tebhnp1.json
+2024-11-03 01:18:37,639 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\d7ed_xf2.json
+2024-11-03 01:18:37,640 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:37,640 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:37,640 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=94533', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\0tebhnp1.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\d7ed_xf2.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_model670_anek\\prophet_model-20241103011837.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:37,640 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:37,990 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:38,024 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:38,150 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:38,153 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:38,153 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:38,160 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\mlm_ne4w.json
+2024-11-03 01:18:38,163 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\s8z5zdz7.json
+2024-11-03 01:18:38,164 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:38,164 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:38,164 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=28994', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\mlm_ne4w.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\s8z5zdz7.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelj8ui6je8\\prophet_model-20241103011838.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:38,164 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:38,625 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:38,658 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:38,787 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:38,791 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:38,791 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:38,798 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\695q5002.json
+2024-11-03 01:18:38,802 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\7cv8sjiw.json
+2024-11-03 01:18:38,803 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:38,803 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:38,803 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=62613', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\695q5002.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\7cv8sjiw.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelirqymyvv\\prophet_model-20241103011838.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:38,803 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:39,256 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:39,289 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:39,414 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:39,417 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:39,417 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:39,424 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\go8aynk4.json
+2024-11-03 01:18:39,428 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\2dz_wj36.json
+2024-11-03 01:18:39,429 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:39,429 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:39,429 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=98310', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\go8aynk4.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\2dz_wj36.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelvey7y42c\\prophet_model-20241103011839.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:39,429 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:40,142 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:40,176 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:40,300 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:40,304 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:40,304 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:40,311 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\bsincshi.json
+2024-11-03 01:18:40,314 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\np_oohf5.json
+2024-11-03 01:18:40,315 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:40,315 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:40,315 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=75529', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\bsincshi.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\np_oohf5.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelcsgeamt0\\prophet_model-20241103011840.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:40,315 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:40,691 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:40,725 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:40,854 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:40,857 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:40,857 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:40,864 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\6x97baha.json
+2024-11-03 01:18:40,867 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\1g2ewek_.json
+2024-11-03 01:18:40,868 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:40,868 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:40,868 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=81552', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\6x97baha.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\1g2ewek_.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelhh9b8re5\\prophet_model-20241103011840.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:40,868 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:41,244 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:41,279 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:41,408 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:41,411 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:41,412 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:41,419 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\_e6kf490.json
+2024-11-03 01:18:41,422 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\z293ty61.json
+2024-11-03 01:18:41,423 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:41,424 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:41,424 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=62411', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\_e6kf490.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\z293ty61.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_model4xcdtlb4\\prophet_model-20241103011841.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:41,424 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:41,776 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:41,813 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:41,944 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:41,948 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:41,948 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:41,956 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\3a0k5ppr.json
+2024-11-03 01:18:41,959 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\roxepbxg.json
+2024-11-03 01:18:41,960 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:41,960 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:41,961 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=10857', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\3a0k5ppr.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\roxepbxg.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelxj00mcmn\\prophet_model-20241103011841.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:41,961 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:42,515 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:42,549 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:42,678 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:42,681 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:42,681 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:42,689 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\qsyocuzj.json
+2024-11-03 01:18:42,693 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\f8usmb18.json
+2024-11-03 01:18:42,694 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:42,694 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:42,694 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=8658', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\qsyocuzj.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\f8usmb18.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelfto479z5\\prophet_model-20241103011842.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:42,694 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:43,082 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:43,116 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:43,244 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:43,247 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:43,247 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:43,255 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\ewytts9d.json
+2024-11-03 01:18:43,258 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\m6pb6cfk.json
+2024-11-03 01:18:43,259 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:43,259 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:43,259 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=4760', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\ewytts9d.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\m6pb6cfk.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modellfsnws5_\\prophet_model-20241103011843.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:43,259 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:44,033 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:44,067 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:44,193 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:44,196 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:44,196 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:44,203 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\n088720l.json
+2024-11-03 01:18:44,207 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\osc6rrh6.json
+2024-11-03 01:18:44,208 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:44,208 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:44,208 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=74645', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\n088720l.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\osc6rrh6.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_model_xwzz8k9\\prophet_model-20241103011844.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:44,208 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:44,564 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:44,597 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:44,722 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:44,725 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:44,725 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:44,732 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\1v_rfa59.json
+2024-11-03 01:18:44,736 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\fvp4qdai.json
+2024-11-03 01:18:44,737 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:44,737 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:44,737 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=88354', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\1v_rfa59.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\fvp4qdai.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelxrvsaenl\\prophet_model-20241103011844.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:44,737 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:45,531 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:45,566 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:45,693 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:45,697 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:45,697 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:45,704 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\09vkcde0.json
+2024-11-03 01:18:45,708 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\5bn624dq.json
+2024-11-03 01:18:45,708 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:45,709 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:45,709 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=92277', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\09vkcde0.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\5bn624dq.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelse35b43m\\prophet_model-20241103011845.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:45,709 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:46,137 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:46,170 - cmdstanpy - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2024-11-03 01:18:46,295 - cmdstanpy - DEBUG - TBB already found in load path
+2024-11-03 01:18:46,298 - prophet - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2024-11-03 01:18:46,299 - prophet - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2024-11-03 01:18:46,305 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\cdkzgg71.json
+2024-11-03 01:18:46,309 - cmdstanpy - DEBUG - input tempfile: C:\Users\AA\AppData\Local\Temp\tmpn0_k41km\v2ov0xos.json
+2024-11-03 01:18:46,310 - cmdstanpy - DEBUG - idx 0
+2024-11-03 01:18:46,310 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2024-11-03 01:18:46,310 - cmdstanpy - DEBUG - CmdStan args: ['D:\\LLM\\CEPCI_Prediction\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=16444', 'data', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\cdkzgg71.json', 'init=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\v2ov0xos.json', 'output', 'file=C:\\Users\\AA\\AppData\\Local\\Temp\\tmpn0_k41km\\prophet_modelha6yxhel\\prophet_model-20241103011846.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2024-11-03 01:18:46,310 - cmdstanpy - INFO - Chain [1] start processing
+2024-11-03 01:18:46,850 - cmdstanpy - INFO - Chain [1] done processing
+2024-11-03 01:18:51,162 - __main__ - INFO - Generating forecast...
+2024-11-03 01:18:51,190 - __main__ - INFO - Calculating validation metrics...
+2024-11-03 01:18:51,193 - __main__ - INFO - Saving results...
+2024-11-03 01:18:51,197 - __main__ - INFO - Creating visualization...
+2024-11-03 01:18:51,919 - __main__ - INFO - Saving model...
+2024-11-03 01:18:51,923 - __main__ - INFO - Forecast completed successfully!
